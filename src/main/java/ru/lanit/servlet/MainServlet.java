@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class MainServlet extends HttpServlet {
-    private static final String DEFAULT_NAME = "Человек";
+    private static final String DEFAULT_NAME = "Human";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
